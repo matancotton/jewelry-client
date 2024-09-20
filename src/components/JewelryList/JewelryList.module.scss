@@ -1,0 +1,22 @@
+.title {
+  text-align: center;
+}
+
+.jewelryList {
+  list-style: none;
+
+  .tableHeader {
+    font-weight: bold;
+  }
+
+  li,
+  a {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+
+    p {
+      flex: 1;
+    }
+  }
+}
